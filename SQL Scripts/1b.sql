@@ -1,0 +1,1 @@
+select Age , count(Age) as Count from dim_repondents group by Age order by Count desc;

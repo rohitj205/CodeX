@@ -1,0 +1,1 @@
+select Typical_consumption_situations,count(Typical_consumption_situations) as tcs_count from fact_survey_responses group by Typical_consumption_situations

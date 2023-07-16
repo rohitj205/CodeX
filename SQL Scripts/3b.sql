@@ -1,0 +1,1 @@
+select Reasons_preventing_trying , count(Reasons_preventing_trying) as rp_count  from fact_survey_responses group by Reasons_preventing_trying order by rp_count desc

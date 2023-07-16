@@ -1,0 +1,1 @@
+select Current_brands,count(Current_brands) as count from fact_survey_responses group by Current_brands order by count desc

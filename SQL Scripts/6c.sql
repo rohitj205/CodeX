@@ -1,0 +1,1 @@
+select Price_range,count(Price_range) from fact_survey_responses group by Price_range

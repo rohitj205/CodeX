@@ -1,0 +1,2 @@
+select c.city , count(c.City) as c_count from dim_cities c join dim_repondents r on c.City_ID = r.City_ID 
+join fact_survey_responses f on f.Respondent_ID = r.Respondent_ID where Brand_perception = "Negative" group by City

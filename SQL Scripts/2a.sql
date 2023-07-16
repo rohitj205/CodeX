@@ -1,0 +1,1 @@
+select Ingredients_expected ,count(Ingredients_expected) from fact_survey_responses group by Ingredients_expected

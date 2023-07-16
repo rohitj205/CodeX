@@ -1,0 +1,1 @@
+select Purchase_location , count(Purchase_location) as pl_pref from fact_survey_responses group by Purchase_location
